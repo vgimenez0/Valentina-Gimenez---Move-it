@@ -1,8 +1,8 @@
 import React from "react";
 import logoTienda from '../logo_moveit.png';
-import carrito from '../carrito.png';
+import CartWidget from './CartWidget';
 
-const NavBar = () => {
+function NavBar ()  {
     return (
         <nav className="fixed-top navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
@@ -50,7 +50,7 @@ const NavBar = () => {
                     <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"></input>
                     <button className="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
-                <img className="logoTienda mx-3" src={carrito}></img>
+                <CartWidget></CartWidget>
                 </div>
             </div>
         </nav>
