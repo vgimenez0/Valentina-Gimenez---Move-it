@@ -4,7 +4,7 @@ import CartWidget from './CartWidget';
 
 function NavBar ()  {
     return (
-        <nav className="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#"><img className="logoTienda" src={logoTienda}></img></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
